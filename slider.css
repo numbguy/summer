@@ -1,0 +1,26 @@
+/* CSS Document */
+.container
+{
+	margin-top:10px;
+	background-color:violet;
+	height:400px;
+	width:100%;
+	position:relative;
+}
+.img
+{
+	height:400px;
+	width:100%;
+	position:absolute;
+	
+}
+#left_holder
+{
+	height:400px;
+	width:100px;
+}
+#right_holder
+{
+	height:400px;
+	width:100px;
+}

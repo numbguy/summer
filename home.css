@@ -1,0 +1,116 @@
+/* CSS Document */
+.head{
+		font:"Comic Sans MS", cursive;
+		font-style:italic;
+		font-size:36px;
+		color:#FFFBF0;
+	}
+	body{
+		
+		background-repeat:no-repeat;
+		background-size:100%;
+		animation:myfirst 40s;
+		max-width:100%;
+		height:auto;
+		background-size:100% 100%;
+		animation-timing-function:ease-in-out;
+		animation-iteration-count:infinite;
+		animation-play-state:running;
+		}
+		@keyframes myfirst
+		{
+			0% {background-image:url(images/1920x1080_hd_wallpaper_111_zixpkcom.jpg);}
+			30% {background-image:url(images/3d-fantasy-art-1920x1080-1010025.jpg);}
+			65% {background-image:url(images/02383_rasthauszugspitzblick_1920x1080.jpg);}
+			100% {background-image:url(images/3D-Tree-3d-tree-nature-1920x1080.jpg);}
+		}
+		.box{
+			margin-top:12%;
+			width:auto;
+  			height:60px;
+			background:none;
+  			padding: 10px;
+  			border: none;
+  			border-radius: 30px/50px;
+		
+			}
+		nav ul{
+			margin-left:400px;
+		    position:absolute;
+			overflow:hidden;
+		}
+		nav li{
+			display:inline-block;
+			float:left;
+			margin-left:20px;
+			
+		}
+		@media screen and (max-width:500px){
+			nav ul li{
+				box-sizing:border-box;
+				width:100px;
+				padding:15px;
+				text-align:left;
+			}
+		}
+		.button {
+ 			 display:inline-block;
+			 font-size: 1em;
+  			padding: 20px;
+  			color:#fff;
+  			background:none;
+  			border: 2px solid orange;
+  			border-radius: 20px/50px;
+  			text-decoration: none;
+  			cursor: pointer;
+			}
+    	.overlay {
+ 			 position: absolute;
+  			top: 0;
+  			bottom: 0;
+  			left: 0;
+  			right: 0;
+  			background: rgba(0, 0, 0, 0.7);
+  			transition: opacity 500ms;
+  			visibility: hidden;
+  			opacity: 0;
+			}
+		.overlay:target {
+  		visibility: visible;
+  		opacity: 1;
+			}
+		.popup {
+  		margin: 70px auto;
+  		padding: 20px;
+  		background:#808080;
+  		border-radius: 5px;
+  		width: 30%;
+  		position: relative;
+  		/*transition: all 5s ease-in-out;*/
+		}
+
+
+		.popup .close {
+  		position: absolute;
+  		top: 20px;
+  		right: 30px;
+  		transition:none;
+  		font-size: 10px;
+  		font-weight: bold;
+  		text-decoration: none;
+  		color: #333;
+		}
+		.popup .close:hover {
+  		color: orange;	
+		}
+		.popup.content {
+  		max-height: 100%;
+  		overflow: auto;
+		}
+		.foot{
+			margin-top:22%;
+			font-style:oblique;
+			font-size:14px;
+			font-stretch:condensed;
+			}
+
