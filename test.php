@@ -1,7 +1,11 @@
 <?php
-	session_start();
-	echo $_SESSION['name'];
-						//echo $_SESSION['User_ID'];
-						//cho $_SESSION['name'];
-						
-						?>
+	if(isset($_GET['ImageId']))
+	{
+		
+		echo $_GET['ImageId'];
+	}
+	else
+	{
+	echo "fjijfi";
+	}
+	?>
